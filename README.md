@@ -2,12 +2,8 @@
 **TRANSFER-LEARNING-AND-KNOWLEDGE-DISTILLATION-for-CHEST-X-RAY-CLASSIFICATION**
 
 This project uses two powerful and efficient deep learning approaches for chest X-ray classification. A combination of Transfer Learning and Knowledge Distillation to create a high-performing and lightweight model. This makes the approach particularly suitable for deployment in low-resource healthcare settings, where computational efficiency and reliability are crucial.
-You want to present your project on GitHub and provide a formal report. Here is a full document that combines the project's GitHub README with a structured report, suitable for an academic or professional portfolio.
 
-TRANSFER-LEARNING-AND-KNOWLEDGE-DISTILLATION-for-CHEST-X-RAY-CLASSIFICATION
-This project demonstrates a powerful and efficient deep learning approach for pneumonia detection from chest X-ray images. It leverages Transfer Learning and Knowledge Distillation to create a high-performing and lightweight model, which is ideal for real-world medical applications where data is limited and computational resources may be constrained.
-
-Project Overview
+*Project Overview*
 The primary goal of this project is to build a robust system for the automated classification of pneumonia from chest X-ray images. It tackles two critical challenges prevalent in medical AI:
 
 Data Scarcity: Training a deep learning model from scratch on limited labeled medical data can lead to poor performance and overfitting.
@@ -59,4 +55,5 @@ Python 3.8+
 PyTorch (recommended) or TensorFlow
 
 CUDA-enabled GPU (recommended for faster training)
+
 
