@@ -46,8 +46,6 @@ This project utilizes the "Chest X-Ray Images (Pneumonia)" dataset, which is ava
 
 **NumPy**: Essential for numerical operations, especially in vectorizing text data.
 
-**Scikit-learn**: implementing the Multinomial Naive Bayes classifier, and .
-
 **torch**: A core deep learning framework used for building and training neural networks.
 
 **torch.nn**: The neural networks module for creating network layers and functions.
@@ -67,6 +65,7 @@ This project utilizes the "Chest X-Ray Images (Pneumonia)" dataset, which is ava
 **time**: A standard Python library for time-related functions, used to track training time.
 
 **google.colab**: A utility used to mount Google Drive for accessing data and saving models.
+
 
 
 
