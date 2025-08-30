@@ -4,6 +4,7 @@
 This project uses two powerful and efficient deep learning approaches for chest X-ray classification. A combination of Transfer Learning and Knowledge Distillation to create a high-performing and lightweight model. This makes the approach particularly suitable for deployment in low-resource healthcare settings, where computational efficiency and reliability are crucial.
 
 *Project Overview*
+
 The primary goal of this project is to build a robust system for the automated classification of pneumonia from chest X-ray images. It tackles two critical challenges prevalent in medical AI:
 
 Data Scarcity: Training a deep learning model from scratch on limited labeled medical data can lead to poor performance and overfitting.
@@ -55,5 +56,6 @@ Python 3.8+
 PyTorch (recommended) or TensorFlow
 
 CUDA-enabled GPU (recommended for faster training)
+
 
 
