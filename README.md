@@ -18,18 +18,16 @@ Transfer Learning: We fine-tune a pre-trained, large-scale model (the "teacher")
 Knowledge Distillation: We then use the knowledge from this large teacher model to train a smaller, more efficient "student" model. The student model learns to mimic the teacher's nuanced predictions, resulting in a lightweight model that retains a high degree of performance, making it suitable for deployment.
 
 Features
-Transfer Learning: Fine-tuning of state-of-the-art architectures (e.g., ResNet-50) on a chest X-ray dataset.
+Transfer Learning: Fine-tuning of state-of-the-art architecture  (ResNet-50) on a chest X-ray dataset.
 
 Knowledge Distillation: Implementation of a distillation pipeline to compress a large teacher model into a compact student model.
-
-Model Compression: The final student model is highly efficient, making it suitable for deployment on mobile or embedded devices.
 
 Comprehensive Evaluation: Detailed comparison of the performance of the baseline, teacher, and student models using relevant medical diagnosis metrics (e.g., AUC-ROC, F1-Score, Precision, and Recall).
 
 Baseline Model: A simple, custom-built Convolutional Neural Network (CNN) is included to serve as a benchmark for comparison.
 
 Dataset
-This project uses the "Chest X-Ray Images (Pneumonia)" dataset, available on Kaggle. It contains images labeled as either Normal or Pneumonia. The dataset exhibits a class imbalance, which is a realistic challenge in medical datasets. This imbalance is handled through data augmentation and is an important consideration in the model's evaluation metrics.
+This project utilizes the "Chest X-Ray Images (Pneumonia)" dataset, which is available on Kaggle. It contains images labeled as either Normal or Pneumonia. The dataset exhibits a class imbalance, which is a realistic challenge in medical datasets.
 
 Repository Structure
 /CHEST-X-RAY-CLASSIFICATION
@@ -56,6 +54,7 @@ Python 3.8+
 PyTorch (recommended) or TensorFlow
 
 CUDA-enabled GPU (recommended for faster training)
+
 
 
 
