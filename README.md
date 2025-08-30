@@ -4,17 +4,6 @@
 
 *Project Overview*
 
-The primary goal of this project is to build a robust system for the automated classification of pneumonia from chest X-ray images. It tackles two critical challenges prevalent in medical AI:
-
-Data Scarcity: Training a deep learning model from scratch on limited labeled medical data can lead to poor performance and overfitting.
-
-Deployment Constraints: Large, high-performance models are often too slow or resource-intensive for deployment on edge devices or in clinical settings with limited computational power.
-
-Our solution addresses these challenges by employing a two-stage approach:
-
-Transfer Learning: We fine-tune a pre-trained, large-scale model (the "teacher") to achieve high accuracy on the classification task. This leverages the extensive knowledge the model has already learned from a massive, general-purpose dataset.
-
-Knowledge Distillation: We then use the knowledge from this large teacher model to train a smaller, more efficient "student" model. The student model learns to mimic the teacher's nuanced predictions, resulting in a lightweight model that retains a high degree of performance, making it suitable for deployment.
 
 Features
 Transfer Learning: Fine-tuning of state-of-the-art architecture  (ResNet-50) on a chest X-ray dataset.
@@ -29,7 +18,7 @@ Dataset
 This project utilizes the "Chest X-Ray Images (Pneumonia)" dataset, which is available on Kaggle. It contains images labeled as either Normal or Pneumonia. The dataset exhibits a class imbalance, which is a realistic challenge in medical datasets.
 
 
-**Transfer Learning and Knowledge Distillation for Chest X-ray Classification **
+**Transfer Learning and Knowledge Distillation for Chest X-ray Classification**
 ---
 
 **Overview**
@@ -41,7 +30,18 @@ The project implements  NLP tasks  such as tokenization, lemmatization, stop wor
 
 **Introduction**
 ---
-Emails are one of the primary communication mediums for companies and educational institutions in today’s digital world. Filtering spam from non-spam emails is challenging for humans, making automated email spam classification crucial. This project implements a Multinomial Naive Bayes classifier and evaluates its performance.
+Deep Learning techniques like CNN come with 2 problems: 
+
+Data Scarcity: Training a deep learning model from scratch on limited labeled medical data can lead to poor performance and overfitting.
+
+Deployment Constraints: Large, high-performance models are often too slow or resource-intensive for deployment on edge devices or in clinical settings with limited computational power.
+
+Our solution addresses these challenges by employing a two-stage approach:
+
+Transfer Learning: We fine-tune a pre-trained, large-scale model (the "teacher") to achieve high accuracy on the classification task. This leverages the extensive knowledge the model has already learned from a massive, general-purpose dataset.
+
+Knowledge Distillation: We then use the knowledge from this large teacher model to train a smaller, more efficient "student" model. The student model learns to mimic the teacher's nuanced predictions, resulting in a lightweight model that retains a high degree of performance, making it suitable for deployment.
+
 
 
 **Methodology**
@@ -87,6 +87,7 @@ _This shows the result:_
 **NLTK**: For natural language processing tasks such as tokenization and stop word removal.
 
 **Email Spam Collection Dataset**: The dataset contains 5172 emails, of which 1527 are spam and the remaining are non-spam.
+
 
 
 
