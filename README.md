@@ -6,9 +6,6 @@
 ---
 This project uses two powerful and efficient deep learning approaches for chest X-ray classification. A combination of Transfer Learning and Knowledge Distillation to create a high-performing and lightweight model. This makes the approach particularly suitable for deployment in low-resource healthcare settings, where computational efficiency and reliability are crucial.
 
-
-The project implements  NLP tasks  such as tokenization, lemmatization, stop word removal, the Multinomial Naive Bayes algorithm on the Bag of Words model, and model evaluation metrics.
-
 **Introduction**
 ---
 Deep Learning techniques like CNN come with 2 problems: 
@@ -29,7 +26,7 @@ Transfer Learning: Fine-tuning of state-of-the-art architecture  (ResNet-50) on 
 
 Knowledge Distillation: Implementation of a distillation pipeline to compress a large teacher model into a compact student model.
 
-Comprehensive Evaluation: Detailed comparison of the performance of the baseline, teacher, and student models using relevant medical diagnosis metrics (e.g., AUC-ROC, F1-Score, Precision, and Recall).
+Comprehensive Evaluation: Detailed comparison of the performance of the baseline, teacher, and student models using relevant medical diagnosis metrics (e.g., Accuray, F1-Score, Precision, and Recall).
 
 Baseline Model: A simple, custom-built Convolutional Neural Network (CNN) is included to serve as a benchmark for comparison.
 
@@ -65,6 +62,7 @@ This project utilizes the "Chest X-Ray Images (Pneumonia)" dataset, which is ava
 **time**: A standard Python library for time-related functions, used to track training time.
 
 **google.colab**: A utility used to mount Google Drive for accessing data and saving models.
+
 
 
 
